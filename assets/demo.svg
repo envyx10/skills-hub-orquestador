@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590" role="img" aria-label="Ejemplo: el orquestador recomienda design-taste-frontend para una landing y animation-performance, con su comando de instalación, para una animación que va a tirones">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1917"/>
+      <stop offset="1" stop-color="#141110"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="590" rx="16" fill="url(#win)"/>
+  <rect x="0.5" y="0.5" width="959" height="589" rx="15.5" fill="none" stroke="#f5efe9" stroke-opacity="0.1"/>
+
+  <!-- barra de título -->
+  <path d="M16 0.5 h928 a15.5 15.5 0 0 1 15.5 15.5 v28 h-959 v-28 a15.5 15.5 0 0 1 15.5 -15.5 z" fill="#24201d"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="46" cy="22" r="6" fill="#febc2e"/><circle cx="66" cy="22" r="6" fill="#28c840"/>
+  <text x="480" y="27" text-anchor="middle" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#8f8379">claude · ~/proyectos/estudio-landing</text>
+
+  <g font-family="Cascadia Code, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <!-- 1 -->
+    <rect x="24" y="64" width="912" height="40" rx="8" fill="none" stroke="#5c4f46"/>
+    <text x="40" y="89" fill="#8f8379">&gt;</text>
+    <text x="58" y="89" fill="#f5efe9">voy a montar una landing para un estudio de arquitectura</text>
+
+    <text x="32" y="138" fill="#d97757">●</text>
+    <text x="52" y="138" fill="#f5efe9"><tspan font-weight="700">Skill</tspan><tspan fill="#cbbdb1">(orquestador)</tspan></text>
+
+    <text x="52" y="172" fill="#f5efe9">Para la landing: <tspan fill="#f0b49a" font-weight="700">design-taste-frontend</tspan>: te da una dirección</text>
+    <text x="52" y="194" fill="#f5efe9">de arte y revisa el render en el navegador para que no parezca</text>
+    <text x="52" y="216" fill="#f5efe9">una plantilla.</text>
+    <text x="52" y="246" fill="#f5efe9">Luego: <tspan fill="#f0b49a" font-weight="700">impeccable</tspan>: para pulir el resultado.</text>
+    <text x="52" y="276" fill="#7fc98a">✓ Las dos están instaladas.</text>
+    <text x="52" y="300" fill="#f5efe9">¿La lanzo?</text>
+
+    <!-- 2 -->
+    <rect x="24" y="330" width="912" height="40" rx="8" fill="none" stroke="#5c4f46"/>
+    <text x="40" y="355" fill="#8f8379">&gt;</text>
+    <text x="58" y="355" fill="#f5efe9">la animación del menú va a tirones</text>
+
+    <text x="32" y="404" fill="#d97757">●</text>
+    <text x="52" y="404" fill="#f5efe9"><tspan font-weight="700">Skill</tspan><tspan fill="#cbbdb1">(orquestador)</tspan></text>
+
+    <text x="52" y="438" fill="#f5efe9">Para los tirones: <tspan fill="#f0b49a" font-weight="700">animation-performance</tspan>: busca qué propiedad</text>
+    <text x="52" y="460" fill="#f5efe9">fuerza layout o paint y la cambia por transform/opacity.</text>
+    <text x="52" y="490" fill="#e5b567">! No la tienes instalada:</text>
+    <rect x="52" y="502" width="610" height="34" rx="6" fill="#2b2420"/>
+    <text x="66" y="524" fill="#f0b49a">npx skills add emilkowalski/skills -s animation-performance -g</text>
+    <text x="52" y="566" fill="#f5efe9">¿La instalo y la lanzo?</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skills-hub-orquestador",
+  "description": "Orquestador de skills para Claude Code: un catálogo curado de las skills que uso, y una skill que recomienda cuál usar en cada tarea.",
+  "owner": {
+    "name": "envyx10",
+    "url": "https://github.com/envyx10"
+  },
+  "metadata": {
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "orquestador",
+      "source": "./plugins/orquestador",
+      "description": "Recomienda qué skill usar según la tarea (diseño, animación, React, Cloudflare, Supabase, seguridad, vídeo, documentos...) y cómo instalarla si falta.",
+      "version": "1.1.0",
+      "author": { "name": "envyx10" },
+      "category": "productivity",
+      "keywords": ["skills", "orquestador", "catalogo", "recomendador"]
+    }
+  ]
+}

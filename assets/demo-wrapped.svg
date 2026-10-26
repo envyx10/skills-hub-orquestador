@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="698" viewBox="0 0 960 698" role="img" aria-label="Ejemplo: /orquestador wrapped analiza el historial, resume el perfil, las skills que sobran, las duplicadas y una oportunidad perdida, y propone limpiar las duplicadas">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1917"/>
+      <stop offset="1" stop-color="#141110"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="698" rx="16" fill="url(#win)"/>
+  <rect x="0.5" y="0.5" width="959" height="697" rx="15.5" fill="none" stroke="#f5efe9" stroke-opacity="0.1"/>
+
+  <path d="M16 0.5 h928 a15.5 15.5 0 0 1 15.5 15.5 v28 h-959 v-28 a15.5 15.5 0 0 1 15.5 -15.5 z" fill="#24201d"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="46" cy="22" r="6" fill="#febc2e"/><circle cx="66" cy="22" r="6" fill="#28c840"/>
+  <text x="480" y="27" text-anchor="middle" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#8f8379">claude · ~/proyectos</text>
+
+  <g font-family="Cascadia Code, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <!-- 1 -->
+    <rect x="24" y="64" width="912" height="40" rx="8" fill="none" stroke="#5c4f46"/>
+    <text x="40" y="89" fill="#8f8379">&gt;</text>
+    <text x="58" y="89" fill="#f5efe9">/orquestador wrapped</text>
+
+    <text x="32" y="138" fill="#d97757">●</text>
+    <text x="52" y="138" fill="#f5efe9"><tspan font-weight="700">Skill</tspan><tspan fill="#cbbdb1">(orquestador)</tspan></text>
+    <text x="32" y="166" fill="#7fc98a">●</text>
+    <text x="52" y="166" fill="#f5efe9"><tspan font-weight="700">Bash</tspan><tspan fill="#cbbdb1">(node scripts/wrapped.mjs)</tspan></text>
+    <text x="60" y="190" fill="#8f8379">⎿  214 sesiones · 1.873 peticiones · 52 skills instaladas</text>
+
+    <text x="52" y="226">🎨</text><text x="82" y="226" fill="#f5efe9">Eres un <tspan fill="#f0b49a" font-weight="700">Esteta del píxel</tspan>. Tu skill estrella:</text>
+    <text x="82" y="248" fill="#f5efe9"><tspan fill="#f0b49a" font-weight="700">impeccable</tspan>, que saltó 41 veces.</text>
+    <text x="52" y="278">💤</text><text x="82" y="278" fill="#f5efe9">9 skills nunca han saltado y cargan <tspan fill="#e5b567" font-weight="700">≈936 tokens</tspan> en cada sesión.</text>
+    <text x="52" y="308">👯</text><text x="82" y="308" fill="#f5efe9"><tspan fill="#f0b49a">hyperframes</tspan> y <tspan fill="#f0b49a">media-use</tspan> están instaladas dos veces.</text>
+    <text x="52" y="338">🕳️</text><text x="82" y="338" fill="#f5efe9"><tspan fill="#f0b49a">systematic-debugging</tspan> encajaba en 12 sesiones y no saltó.</text>
+
+    <rect x="52" y="356" width="560" height="34" rx="6" fill="#2b2420"/>
+    <text x="66" y="378" fill="#f0b49a">~/.claude/skills-wrapped/wrapped-2026-10-25.html</text>
+    <text x="52" y="418" fill="#f5efe9">¿Limpio lo que sobra?</text>
+
+    <!-- 2 -->
+    <rect x="24" y="448" width="912" height="40" rx="8" fill="none" stroke="#5c4f46"/>
+    <text x="40" y="473" fill="#8f8379">&gt;</text>
+    <text x="58" y="473" fill="#f5efe9">sí, empieza por las duplicadas</text>
+
+    <text x="32" y="522" fill="#d97757">●</text>
+    <text x="52" y="522" fill="#f5efe9">Propongo quitar las copias sueltas, que ya vienen en el plugin:</text>
+    <text x="68" y="552" fill="#e87a6f">−</text><text x="88" y="552" fill="#cbbdb1">~/.claude/skills/hyperframes</text>
+    <text x="68" y="576" fill="#e87a6f">−</text><text x="88" y="576" fill="#cbbdb1">~/.claude/skills/media-use</text>
+    <text x="52" y="612" fill="#7fc98a">✓ Ahorras ≈310 tokens por sesión y no pierdes nada.</text>
+    <text x="52" y="642" fill="#f5efe9">¿Lo aplico?</text>
+  </g>
+</svg>

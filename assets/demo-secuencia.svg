@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="356" viewBox="0 0 960 356" role="img" aria-label="Ejemplo: para una idea sin aterrizar, el orquestador propone la secuencia brainstorming, writing-plans y executing-plans">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1917"/>
+      <stop offset="1" stop-color="#141110"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="356" rx="16" fill="url(#win)"/>
+  <rect x="0.5" y="0.5" width="959" height="355" rx="15.5" fill="none" stroke="#f5efe9" stroke-opacity="0.1"/>
+
+  <path d="M16 0.5 h928 a15.5 15.5 0 0 1 15.5 15.5 v28 h-959 v-28 a15.5 15.5 0 0 1 15.5 -15.5 z" fill="#24201d"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="46" cy="22" r="6" fill="#febc2e"/><circle cx="66" cy="22" r="6" fill="#28c840"/>
+  <text x="480" y="27" text-anchor="middle" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#8f8379">claude · ~/proyectos/reservas-gym</text>
+
+  <g font-family="Cascadia Code, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <rect x="24" y="64" width="912" height="40" rx="8" fill="none" stroke="#5c4f46"/>
+    <text x="40" y="89" fill="#8f8379">&gt;</text>
+    <text x="58" y="89" fill="#f5efe9">tengo una idea para una app de reservas de un gimnasio, ¿por dónde empiezo?</text>
+
+    <text x="32" y="138" fill="#d97757">●</text>
+    <text x="52" y="138" fill="#f5efe9"><tspan font-weight="700">Skill</tspan><tspan fill="#cbbdb1">(orquestador)</tspan></text>
+
+    <text x="52" y="172" fill="#f5efe9">Para pasar de idea a código, una secuencia de tres:</text>
+    <text x="64" y="204" fill="#d97757" font-weight="700">1</text><text x="88" y="204" fill="#f5efe9"><tspan fill="#f0b49a" font-weight="700">brainstorming</tspan>: aterriza la idea y los requisitos contigo.</text>
+    <text x="64" y="230" fill="#d97757" font-weight="700">2</text><text x="88" y="230" fill="#f5efe9"><tspan fill="#f0b49a" font-weight="700">writing-plans</tspan>: convierte el diseño en un plan de pasos.</text>
+    <text x="64" y="256" fill="#d97757" font-weight="700">3</text><text x="88" y="256" fill="#f5efe9"><tspan fill="#f0b49a" font-weight="700">executing-plans</tspan>: lo ejecuta con puntos de control.</text>
+    <text x="52" y="292" fill="#7fc98a">✓ Las tres vienen en superpowers, que ya tienes.</text>
+    <text x="52" y="318" fill="#f5efe9">¿Empiezo por brainstorming?</text>
+  </g>
+</svg>

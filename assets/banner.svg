@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="skills-hub-orquestador: catálogo y orquestador de skills para Claude Code">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141110"/>
+      <stop offset="1" stop-color="#2b1a12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.48" r="0.42">
+      <stop offset="0" stop-color="#d97757" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#d97757" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#f5efe9" opacity="0.06"/>
+    </pattern>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5efe9"/>
+      <stop offset="1" stop-color="#f0b49a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#dots)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="378" rx="27" fill="none" stroke="#f5efe9" stroke-opacity="0.08"/>
+
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <rect x="64" y="56" width="214" height="32" rx="16" fill="#d97757" fill-opacity="0.16" stroke="#d97757" stroke-opacity="0.5"/>
+    <circle cx="84" cy="72" r="5" fill="#d97757"/>
+    <text x="98" y="78" font-size="15" font-weight="600" fill="#f0b49a" letter-spacing="0.5">CLAUDE CODE · SKILLS</text>
+    <rect x="290" y="56" width="236" height="32" rx="16" fill="#f0b49a"/>
+    <text x="408" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#141110" letter-spacing="0.5">★ NUEVO · SKILLS WRAPPED</text>
+
+    <text x="62" y="152" font-size="60" font-weight="800" fill="url(#title)" letter-spacing="-1">skills-hub-orquestador</text>
+    <text x="64" y="196" font-size="23" fill="#cbbdb1">Más de 70 skills ordenadas por categorías y una skill que te dice cuál usar.</text>
+
+    <g font-size="16" fill="#f5efe9">
+      <rect x="64"  y="232" width="104" height="34" rx="17" fill="#3a2a20"/><text x="116" y="254" text-anchor="middle">🎨 Diseño</text>
+      <rect x="178" y="232" width="128" height="34" rx="17" fill="#3a2a20"/><text x="242" y="254" text-anchor="middle">🎞️ Animación</text>
+      <rect x="316" y="232" width="100" height="34" rx="17" fill="#3a2a20"/><text x="366" y="254" text-anchor="middle">⚛️ React</text>
+      <rect x="426" y="232" width="130" height="34" rx="17" fill="#3a2a20"/><text x="491" y="254" text-anchor="middle">☁️ Cloudflare</text>
+      <rect x="566" y="232" width="122" height="34" rx="17" fill="#3a2a20"/><text x="627" y="254" text-anchor="middle">🗄️ Supabase</text>
+      <rect x="64"  y="276" width="122" height="34" rx="17" fill="#3a2a20"/><text x="125" y="298" text-anchor="middle">🔐 Seguridad</text>
+      <rect x="196" y="276" width="118" height="34" rx="17" fill="#3a2a20"/><text x="255" y="298" text-anchor="middle">🧠 Workflow</text>
+      <rect x="324" y="276" width="96"  height="34" rx="17" fill="#3a2a20"/><text x="372" y="298" text-anchor="middle">🎬 Vídeo</text>
+      <rect x="430" y="276" width="136" height="34" rx="17" fill="#3a2a20"/><text x="498" y="298" text-anchor="middle">📄 Documentos</text>
+      <rect x="576" y="276" width="112" height="34" rx="17" fill="#3a2a20"/><text x="632" y="298" text-anchor="middle">🧪 Testing</text>
+    </g>
+  </g>
+
+  <!-- hub -->
+  <g stroke="#d97757" stroke-width="2" fill="none">
+    <circle cx="975" cy="190" r="112" stroke-opacity="0.18" stroke-dasharray="4 8"/>
+    <circle cx="975" cy="190" r="70" stroke-opacity="0.28"/>
+  </g>
+  <g stroke="#d97757" stroke-width="2.5" opacity="0.85">
+    <line x1="975" y1="190" x2="880" y2="100"/>
+    <line x1="975" y1="190" x2="1085" y2="96"/>
+    <line x1="975" y1="190" x2="860" y2="226"/>
+    <line x1="975" y1="190" x2="1100" y2="230"/>
+    <line x1="975" y1="190" x2="920" y2="300"/>
+    <line x1="975" y1="190" x2="1045" y2="305"/>
+  </g>
+  <g fill="#f5efe9">
+    <circle cx="880" cy="100" r="10"/><circle cx="1085" cy="96" r="10"/><circle cx="860" cy="226" r="10"/>
+    <circle cx="1100" cy="230" r="10"/><circle cx="920" cy="300" r="10"/><circle cx="1045" cy="305" r="10"/>
+  </g>
+  <circle cx="975" cy="190" r="46" fill="#d97757"/>
+  <circle cx="975" cy="190" r="46" fill="none" stroke="#f5efe9" stroke-opacity="0.25" stroke-width="2"/>
+  <path d="M975 164 l6.5 19.5 l19.5 6.5 l-19.5 6.5 l-6.5 19.5 l-6.5 -19.5 l-19.5 -6.5 l19.5 -6.5 z" fill="#141110"/>
+</svg>
